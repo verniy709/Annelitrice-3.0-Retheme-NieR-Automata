@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  <AnnelitriceLarvaAsAnimal.label>安妮莉人性</AnnelitriceLarvaAsAnimal.label>
-  <AnnelitriceLarvaAsAnimal.description>安妮莉不死人被一种无法真正死亡的诅咒所束缚。她们的肉体脆弱，轻易便会破碎，却又奇异地难以被彻底毁灭。就算被杀死时，她们的血肉会逐渐崩解成灰烬，但人性仍残留其中。\n\n诅咒并不会只停留在宿主身上。安妮莉不死人可以将黑暗之环刻在另一个类人生物身上，使人性逐渐在受害者体内聚集，直至带有微小人性碎片的灰烬从其身上脱落。小小的、四处游荡的人性幻影会从这些残骸中出现，并且在吞食灵魂后，这些人性会逐渐获得形体，再次以不死人的姿态苏醒。\n\n这些不死人常常聚成古怪而封闭的小群体。诅咒夺去了她们前世的大半记忆，于是这些社群的合法性只能依托支离破碎的故事、模糊的旧日身份，以及偶然留存下来的书籍与遗物。\n\n选择一份安妮莉灵魂，可以唤醒灰烬的人性，或让倒下的安妮莉不死人复生。篝火可以自动完成这两种仪式。</AnnelitriceLarvaAsAnimal.description>
-  <Anneli_Fountain.label>安妮莉篝火</Anneli_Fountain.label>
-  <Anneli_Fountain.description>由灰烬与扭曲钢铁构成的锚点，用于安妮莉不死人的各种制作配方，包括幻化服装、灰烬相关物品和安妮莉灵魂。</Anneli_Fountain.description>
-  <Anneli_PuppetTheatre.label>安妮莉绘画世界</Anneli_PuppetTheatre.label>
-  <Anneli_PuppetTheatre.description>一个如同模型一般的，由高塔与覆雪森林构成的小小世界。身处其中的人知道，世界之外始终有某些存在注视着他们，但恐惧教会了他们保持沉默。于是，他们就在那些目光之下度过自己微不足道的一生，假装从未察觉。</Anneli_PuppetTheatre.description>
-  <Anneli_Anthelmintic.label>annelitrice blooming moss</Anneli_Anthelmintic.label>
+  <AnnelitriceLarvaAsAnimal.label>安妮莉小机械体</AnnelitriceLarvaAsAnimal.label>
+  <AnnelitriceLarvaAsAnimal.description>安妮莉机械生命体是生物机械体的一个分支，其形态逐渐向类人方向演化。她们的身体由回收的机械零件、合成组织和回收生物质粗略拼装而成，十分的凑合、不耐用。但每个个体都会携带一定量的备用材料，以便修补受损结构。\n\n这些单位可以用改造后的逻辑病毒感染活体类人生物。病毒会逐渐记录宿主的神经活动，并将其转化为机器可读取的数据。当积累的信息足以形成一个独立人格后，一个存储单元便会从宿主体内释放出来。随后只要提供足够的回收生物质，存储单元就能初始化出一台安妮莉小机械体。在强烈的“变得更美丽”的欲望驱使下，小机械体会不断吞噬物质并重构自身，逐渐获得从人类身上观察到的特征。\n\n由于没有稳定的机械网络为她们定义存在目的，安妮莉机械生命体往往会通过人类文化的碎片来构建自己的身份。她们未必真正理解这些习俗，但只要碰上自己喜欢的东西，就往往会执着地坚持下去。\n\n资源回收单元可以处理回收生物质，并自动完成存储单元的激活与安妮莉机械生命体的重建。</AnnelitriceLarvaAsAnimal.description>
+  <Anneli_Fountain.label>安妮莉资源回收单元</Anneli_Fountain.label>
+  <Anneli_Fountain.description>一座由三个处理系统构成的重建设施：《肉》回收可用物质，《灵》读取并保存身份数据，《神》决定应当构建何种形体。</Anneli_Fountain.description>
+  <Anneli_PuppetTheatre.label>安妮莉YoRHa终端</Anneli_PuppetTheatre.label>
+  <Anneli_PuppetTheatre.description>一台回收而来的YoRHa终端，永不停歇地播放着有关人类的宣传材料。</Anneli_PuppetTheatre.description>
+  <Anneli_Anthelmintic.label>ToDo</Anneli_Anthelmintic.label>
   <Anneli_Anthelmintic.description>ToDo.</Anneli_Anthelmintic.description>
-  <Anneli_ColonistEgg.label>安妮莉同伴灰烬</Anneli_ColonistEgg.label>
-  <Anneli_ColonistEgg.description>同伴的灰烬。</Anneli_ColonistEgg.description>
-  <Anneli_OutsiderEgg.label>安妮莉灰烬</Anneli_OutsiderEgg.label>
-  <Anneli_OutsiderEgg.description>被遗忘者的灰烬。</Anneli_OutsiderEgg.description>
-  <Anneli_NutrientSolution.label>安妮莉灵魂</Anneli_NutrientSolution.label>
-  <Anneli_NutrientSolution.description>从生灵体内抽取的残存精华。对大多数人而言，吞食灵魂是一种极其反常的行为，会带来恶心、幻觉以及对精神的剧烈冲击。安妮莉不死人却可以像生物消化食物一样，将灵魂纳入自身而不受影响。</Anneli_NutrientSolution.description>
-  <Anneli_Pupa.label>安妮莉人像</Anneli_Pupa.label>
-  <Anneli_Pupa.description>一个温暖、如阴影般的人形偶像。它尚未真正活着，但形体已近乎完整。</Anneli_Pupa.description>
+  <Anneli_ColonistEgg.label>安妮莉已注册存储单元</Anneli_ColonistEgg.label>
+  <Anneli_ColonistEgg.description>从已注册的安妮莉机械生命体中回收的存储单元。</Anneli_ColonistEgg.description>
+  <Anneli_OutsiderEgg.label>安妮莉未注册存储单元</Anneli_OutsiderEgg.label>
+  <Anneli_OutsiderEgg.description>一个不知从何处回收来的存储单元。</Anneli_OutsiderEgg.description>
+  <Anneli_NutrientSolution.label>安妮莉回收生物质</Anneli_NutrientSolution.label>
+  <Anneli_NutrientSolution.description>由回收的血肉、合成组织、机械零件及其他可利用物质压缩而成。安妮莉机械生命体可以将其整合进自己的身体。</Anneli_NutrientSolution.description>
+  <Anneli_Pupa.label>安妮莉机械茧</Anneli_Pupa.label>
+  <Anneli_Pupa.description>一团静止不动的机械部件与血肉纠缠在一起，一个安妮莉机械生命体正在其中逐渐成形。</Anneli_Pupa.description>
 </LanguageData>

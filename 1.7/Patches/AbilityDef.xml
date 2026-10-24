@@ -15,7 +15,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/description</xpath>
     <value>
-      <description>Infect another humanoid with a modified Logic Virus. Over time, the virus records their neural activity until a complete machine-readable personality emerges. Once sufficiently developed, the personality is packaged into a storage element and released from the host.</description>
+      <description>Infect another humanoid with a modified Logic Virus. Over time, the virus records their neural activity until a complete machine-readable personality emerges.</description>
     </value>
   </Operation>
 </Patch>

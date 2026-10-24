@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  <Anneli_Fountain.label>安妮莉篝火</Anneli_Fountain.label>
-  <Anneli_Fountain.description>由灰烬与扭曲钢铁构成的锚点，用于安妮莉不死人的各种制作配方，包括幻化服装、灰烬相关物品和安妮莉灵魂。</Anneli_Fountain.description>
-  <Anneli_NutrientSolution.label>安妮莉灵魂</Anneli_NutrientSolution.label>
-  <Anneli_NutrientSolution.description>从生灵体内抽取的残存精华。对大多数人而言，吞食灵魂是一种极其反常的行为，会带来恶心、幻觉以及对精神的剧烈冲击。安妮莉不死人却可以像生物消化食物一样，将灵魂纳入自身而不受影响。</Anneli_NutrientSolution.description>
-  <Anneli_PuppetTheatre.label>安妮莉绘画世界</Anneli_PuppetTheatre.label>
-  <Anneli_PuppetTheatre.description>一个如同模型一般的，由高塔与覆雪森林构成的小小世界。身处其中的人知道，世界之外始终有某些存在注视着他们，但恐惧教会了他们保持沉默。于是，他们就在那些目光之下度过自己微不足道的一生，假装从未察觉。</Anneli_PuppetTheatre.description>
+  <Anneli_Fountain.label>安妮莉资源回收单元</Anneli_Fountain.label>
+  <Anneli_Fountain.description>一座由三个处理系统构成的重建设施：《肉》回收可用物质，《灵》读取并保存身份数据，《神》决定应当构建何种形体。</Anneli_Fountain.description>
+  <Anneli_NutrientSolution.label>安妮莉回收生物质</Anneli_NutrientSolution.label>
+  <Anneli_NutrientSolution.description>由回收的血肉、合成组织、机械零件及其他可利用物质压缩而成。安妮莉机械生命体可以将其整合进自己的身体。</Anneli_NutrientSolution.description>
+  <Anneli_PuppetTheatre.label>安妮莉YoRHa终端</Anneli_PuppetTheatre.label>
+  <Anneli_PuppetTheatre.description>一台回收而来的YoRHa终端，永不停歇地播放着有关人类的宣传材料。</Anneli_PuppetTheatre.description>
 </LanguageData>

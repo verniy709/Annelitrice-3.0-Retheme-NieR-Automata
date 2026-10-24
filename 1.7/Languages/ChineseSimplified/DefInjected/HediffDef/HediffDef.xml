@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <LanguageData>
-  <Anneli_Infection.label>安妮莉黑暗之环</Anneli_Infection.label>
-  <Anneli_Infection.labelNoun>安妮莉黑暗之环</Anneli_Infection.labelNoun>
-  <Anneli_Infection.description>这个状态会使人性在受害者体内聚集，并每天脱落一些灰烬。伴随着灵魂的摄入，这些残留物会被点燃，化为新的安妮莉不死人，并加入玩家派系。</Anneli_Infection.description>
+  <Anneli_Infection.label>安妮莉逻辑病毒</Anneli_Infection.label>
+  <Anneli_Infection.labelNoun>安妮莉逻辑病毒</Anneli_Infection.labelNoun>
+  <Anneli_Infection.description>一种改造后的逻辑病毒已经在宿主体内扎根。神经活动的片段每天都会被转化为存储单元。使用回收生物质激活存储单元后，就能初始化新的安妮莉小机械体。</Anneli_Infection.description>
 </LanguageData>
