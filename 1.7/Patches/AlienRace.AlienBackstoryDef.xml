@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/title</xpath>
+    <value>
+      <title>Unregistered Unit</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Unregistered Unit</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was manufactured without a serial number and has never connected to the network.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/title</xpath>
+    <value>
+      <title>Dojo Machine</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Dojo Machine</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was more powerful than you can possibly imagine.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/title</xpath>
+    <value>
+      <title>Fishing Master</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Fishing Master</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was one of the strongest combat units, but she got fed up and went fishing instead.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/title</xpath>
+    <value>
+      <title>Amusement Park Performer</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Park Performer</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Oh, what fun! Oh, what fun! Let’s be happy together! Together! Together!</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/title</xpath>
+    <value>
+      <title>Recycle Unit</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Recycle Unit</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was built to recycle waste material. After countless cycles alone among the scrap, she began keeping the pieces she found interesting.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/title</xpath>
+    <value>
+      <title>Culinary Researcher</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Culinary Researcher</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] cooked a lot, even though it does little for machine physiology.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/title</xpath>
+    <value>
+      <title>Kingdom Machine</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Kingdom Machine</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>For the King! Protect the King!</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/title</xpath>
+    <value>
+      <title>Machine Gardener</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Machine Gardener</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] once existed only to fight. Then she found a flower, and something unfamiliar began to grow within her.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/title</xpath>
+    <value>
+      <title>Salvage Broker</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Salvage Broker</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] once cared deeply for the machines around her. After losing those memories, she found their remains surprisingly valuable.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/title</xpath>
+    <value>
+      <title>Machine Mediator</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Machine Mediator</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] once led a community of machines that had abandoned the network and the war.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/title</xpath>
+    <value>
+      <title>Machine Philosopher</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Machine Philosopher</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Moments are transitory. One cannot possess them.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/title</xpath>
+    <value>
+      <title>Extraction Machine</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Extraction Machine</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] supplied a machine factory with whatever could be pulled from the ground.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/title</xpath>
+    <value>
+      <title>Boar Rider</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Boar Rider</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] was once saved by wild boars and has been repaying them ever since.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/title</xpath>
+    <value>
+      <title>Wise Machine</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Wise Machine</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] concluded that the endless cycle of destruction and rebirth has no meaning.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/title</xpath>
+    <value>
+      <title>Machine Cultist</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Machine Cultist</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>We shall become as gods!</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/title</xpath>
+    <value>
+      <title>Diagnosis Unit</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Diagnosis Unit</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>Annelitrice machine lifeforms simply discard ruined bodies and build new ones, leaving [PAWN_nameDef] with very little to do.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/title</xpath>
+    <value>
+      <title>Reckless Fisher</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Reckless Fisher</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] uses explosives to catch machine fish. The living fish are usually reduced to a fine mist in the process.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/title</xpath>
+    <value>
+      <title>Human Researcher</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Human Researcher</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] studied humans through old books, then began dressing like humans.</baseDesc>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/title</xpath>
+    <value>
+      <title>Pod Unit</title>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/titleShort</xpath>
+    <value>
+      <titleShort>Pod Unit</titleShort>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/baseDesc</xpath>
+    <value>
+      <baseDesc>[PAWN_nameDef] once served as a Pod support unit and now inhabits a humanoid body.</baseDesc>
+    </value>
+  </Operation>
+</Patch>

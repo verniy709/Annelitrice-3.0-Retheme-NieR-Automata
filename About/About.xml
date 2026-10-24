@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Annelitrice 3.0 Retheme NieR: Automata</name>
+  <author>Verniy709</author>
+  <packageId>Verniy709.Annelitrice3.0.Retheme.NieRAutomata</packageId>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Verniy709.Annelitrice3.0</packageId>
+      <displayName>Annelitrice 3.0</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Verniy709.Annelitrice3.0</li>
+  </loadAfter>
+  <description></description>
+</ModMetaData>

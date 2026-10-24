@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="OthersDrinkNutrientSolution"]/stages/li/label</xpath>
+    <value>
+      <label>ate recovered biomass</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="OthersDrinkNutrientSolution"]/stages/li/description</xpath>
+    <value>
+      <description>Why is there metal and wire in it?</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="AnneliDrinkNutrientSolution"]/stages/li/label</xpath>
+    <value>
+      <label>absorbed recovered biomass</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThoughtDef[defName="AnneliDrinkNutrientSolution"]/stages/li/description</xpath>
+    <value>
+      <description>Useful material. Nothing should be wasted.</description>
+    </value>
+  </Operation>
+</Patch>

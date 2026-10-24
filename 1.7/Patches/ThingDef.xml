@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/label</xpath>
+    <value>
+      <label>annelitrice stubby machine</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/description</xpath>
+    <value>
+      <description>Annelitrice machine lifeforms are a branch of bio-machines that have grown increasingly humanoid. Their bodies are crude constructions of recycled machine parts, synthetic tissue, and recovered biomass. They are not particularly durable, but each unit carries reserves of spare material to patch damaged structures and replace broken components.\n\nThese units can infect living humanoids with a modified Logic Virus that gradually records neural activity as machine-readable data. Once enough information has accumulated to form an independent personality, a storage element is released from the host. Given enough recovered biomass, the storage element can initialize an annelitrice stubby machine. Driven by a strong desire to become beautiful, the stubby machine consumes and rebuilds itself, gradually taking on features observed in humans.\n\nWithout a stable machine network to define their purpose, annelitrice machine lifeforms often build identities from whatever fragments of human culture they can recover. They may not fully understand these customs, but if they find something they like, they tend to cling to it.\n\nA resource recovery unit can process recovered biomass and automate the activation of storage elements and reconstruction of annelitrice machine lifeforms.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/label</xpath>
+    <value>
+      <label>annelitrice resource recovery unit</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/description</xpath>
+    <value>
+      <description>A reconstruction facility built with three processing systems: MEAT recovers usable matter, SOUL reads and preserves identity data, and GOD determines what form should be built.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/label</xpath>
+    <value>
+      <label>annelitrice YoRHa terminal</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/description</xpath>
+    <value>
+      <description>A salvaged YoRHa terminal that endlessly cycles human propaganda.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/label</xpath>
+    <value>
+      <label>ToDo</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/description</xpath>
+    <value>
+      <description>ToDo.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/label</xpath>
+    <value>
+      <label>annelitrice registered storage element</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/description</xpath>
+    <value>
+      <description>A storage element recovered from a registered annelitrice machine lifeform.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/label</xpath>
+    <value>
+      <label>annelitrice unregistered storage element</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/description</xpath>
+    <value>
+      <description>A storage element recovered somewhere.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/label</xpath>
+    <value>
+      <label>annelitrice recovered biomass</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/description</xpath>
+    <value>
+      <description>A compact mass of salvaged flesh, synthetic tissue, machine components, and other reusable matter. Annelitrice machine lifeforms can incorporate it into their own bodies.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/label</xpath>
+    <value>
+      <label>annelitrice machine cocoon</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/description</xpath>
+    <value>
+      <description>A motionless tangle of components and flesh. An annelitrice machine lifeform is taking shape within it.</description>
+    </value>
+  </Operation>
+  <!-- Keep every retheme image under its own texture root, including random variants and masks. -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_NierAutomata/Anneli_Building/Fountain</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_NierAutomata/Anneli_Building/PuppetTheatre</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Anthelmintic</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/NutrientSolution</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Egg_Colonist</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Egg</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/graphicData/texPath</xpath>
+    <value>
+      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Pupa</texPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/statBases</xpath>
+    <value>
+      <MeatAmount>0</MeatAmount>
+    </value>
+  </Operation>
+  <!-- Butchery yields Anneli_NutrientSolution -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]</xpath>
+    <value>
+      <butcherProducts>
+        <Anneli_NutrientSolution>10</Anneli_NutrientSolution>
+      </butcherProducts>
+    </value>
+  </Operation>
+</Patch>

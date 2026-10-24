@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Anneli_Infection"]/label</xpath>
+    <value>
+      <label>annelitrice Logic Virus</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Anneli_Infection"]/labelNoun</xpath>
+    <value>
+      <labelNoun>annelitrice Logic Virus</labelNoun>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/HediffDef[defName="Anneli_Infection"]/description</xpath>
+    <value>
+      <description>A modified Logic Virus has taken root within the host. Fragments of neural activity are converted into storage elements each day. Activation of storage elements by recovered biomass initializes new annelitrice stubby machines.</description>
+    </value>
+  </Operation>
+</Patch>

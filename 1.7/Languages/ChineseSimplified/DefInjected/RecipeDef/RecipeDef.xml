@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Cure_Anneli_Infection.label>解除安妮莉黑暗之环</Cure_Anneli_Infection.label>
+  <Cure_Anneli_Infection.description>这个医疗操作会解除安妮莉黑暗之环。</Cure_Anneli_Infection.description>
+  <Cure_Anneli_Infection.jobString>正在解除安妮莉黑暗之环。</Cure_Anneli_Infection.jobString>
+  <Cure_Anneli_Infection.successfullyRemovedHediffMessage>{0}成功解除了{1}的安妮莉黑暗之环。</Cure_Anneli_Infection.successfullyRemovedHediffMessage>
+  <HatchAnneliEggs.label>唤醒安妮莉人性</HatchAnneliEggs.label>
+  <HatchAnneliEggs.description>唤醒安妮莉人性。</HatchAnneliEggs.description>
+  <ButcherAnneliEggs.label>研磨安妮莉灰烬</ButcherAnneliEggs.label>
+  <CremateAnneliEggs.label>焚毁安妮莉灰烬</CremateAnneliEggs.label>
+  <Anneli_AnthelminticAnneliEggs.label>annelitrice blooming moss production</Anneli_AnthelminticAnneliEggs.label>
+  <Anneli_AnthelminticAnneliEggs.description>Annelitrice blooming moss production.</Anneli_AnthelminticAnneliEggs.description>
+</LanguageData>

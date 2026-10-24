@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/iconPath</xpath>
+    <value>
+      <iconPath>Anneli_Retheme_NierAutomata/Anneli_UI/Anneli_Infect</iconPath>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/label</xpath>
+    <value>
+      <label>infect with Logic Virus</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/description</xpath>
+    <value>
+      <description>Infect another humanoid with a modified Logic Virus. Over time, the virus records their neural activity until a complete machine-readable personality emerges. Once sufficiently developed, the personality is packaged into a storage element and released from the host.</description>
+    </value>
+  </Operation>
+</Patch>

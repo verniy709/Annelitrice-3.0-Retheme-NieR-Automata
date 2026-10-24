@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/label</xpath>
+    <value>
+      <label>annelitrice resource recovery unit</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_Fountain"]/description</xpath>
+    <value>
+      <description>A reconstruction facility built with three processing systems: MEAT recovers usable matter, SOUL reads and preserves identity data, and GOD determines what form should be built.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/label</xpath>
+    <value>
+      <label>annelitrice recovered biomass</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_NutrientSolution"]/description</xpath>
+    <value>
+      <description>A compact mass of salvaged flesh, synthetic tissue, machine components, and other reusable matter. Annelitrice machine lifeforms can incorporate it into their own bodies.</description>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_PuppetTheatre"]/label</xpath>
+    <value>
+      <label>annelitrice YoRHa terminal</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ResearchProjectDef[defName="Anneli_PuppetTheatre"]/description</xpath>
+    <value>
+      <description>A salvaged YoRHa terminal that endlessly cycles human propaganda.</description>
+    </value>
+  </Operation>
+</Patch>
