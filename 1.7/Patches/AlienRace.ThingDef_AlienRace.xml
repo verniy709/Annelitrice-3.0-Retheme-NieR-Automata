@@ -18,6 +18,7 @@
       <MeatAmount>0</MeatAmount>
     </value>
   </Operation>
+  <!-- Butchery yields Anneli_NutrientSolution -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Annelitrice"]</xpath>
     <value>
