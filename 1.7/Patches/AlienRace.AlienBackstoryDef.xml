@@ -63,7 +63,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Park Performer</titleShort>
+      <titleShort>Amusement Park Performer</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
