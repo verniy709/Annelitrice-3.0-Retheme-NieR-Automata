@@ -100,43 +100,43 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Anneli_Retheme_NierAutomata/Anneli_Building/Fountain</texPath>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Building/Fountain</texPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Anneli_Retheme_NierAutomata/Anneli_Building/PuppetTheatre</texPath>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Building/PuppetTheatre</texPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Anthelmintic"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Anthelmintic</texPath>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Item/Anthelmintic</texPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/NutrientSolution</texPath>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Item/NutrientSolution</texPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Egg_Colonist</texPath>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Item/Egg_Colonist</texPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Egg</texPath>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Item/Egg</texPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/graphicData/texPath</xpath>
     <value>
-      <texPath>Anneli_Retheme_NierAutomata/Anneli_Item/Pupa</texPath>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Item/Pupa</texPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">

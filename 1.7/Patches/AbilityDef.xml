@@ -3,7 +3,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/iconPath</xpath>
     <value>
-      <iconPath>Anneli_Retheme_NierAutomata/Anneli_UI/Anneli_Infect</iconPath>
+      <iconPath>Anneli_Retheme_NieRAutomata/Anneli_UI/Anneli_Infect</iconPath>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
