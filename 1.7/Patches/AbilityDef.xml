@@ -9,7 +9,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/label</xpath>
     <value>
-      <label>infect with Logic Virus</label>
+      <label>infect with logic virus</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

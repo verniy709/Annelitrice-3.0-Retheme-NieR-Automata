@@ -9,7 +9,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AnnelitriceLarvaAsAnimal"]/description</xpath>
     <value>
-      <description>Annelitrice machine lifeforms are a branch of bio-machines that have grown increasingly humanoid. Their bodies are crude constructions of recycled machine parts, synthetic tissue, and recovered biomass. They are not particularly durable, but each unit carries reserves of spare material to patch damaged structures and replace broken components.\n\nThese units can infect living humanoids with a modified Logic Virus that gradually records neural activity as machine-readable data. Once enough information has accumulated to form an independent personality, a storage element is released from the host. Given enough recovered biomass, the storage element can initialize an annelitrice stubby machine. Driven by a strong desire to become beautiful, the stubby machine consumes and rebuilds itself, gradually taking on features observed in humans.\n\nWithout a stable machine network to define their purpose, annelitrice machine lifeforms often build identities from whatever fragments of human culture they can recover. They may not fully understand these customs, but if they find something they like, they tend to cling to it.\n\nA resource recovery unit can process recovered biomass and automate the activation of storage elements and reconstruction of annelitrice machine lifeforms.</description>
+      <description>Annelitrice machine lifeforms are a branch of bio-machines that have grown increasingly humanoid. Their bodies are crude constructions of recycled machine parts, synthetic tissue, and recovered biomass. They are not particularly durable, but each unit carries reserves of spare material to patch damaged structures and replace broken components.\n\nThese units can infect living humanoids with a modified Logic Virus that gradually records neural activity as machine-readable data. Once enough information has accumulated to form an independent personality, a storage element is released from the host. Given enough recovered biomass, the storage element can initialize an Annelitrice stubby machine. Driven by a strong desire to become beautiful, the stubby machine consumes and rebuilds itself, gradually taking on features observed in humans.\n\nWithout a stable machine network to define their purpose, Annelitrice machine lifeforms often build identities from whatever fragments of human culture they can recover. They may not fully understand these customs, but if they find something they like, they tend to cling to it.\n\nA resource recovery unit can process recovered biomass and automate the activation of storage elements and reconstruction of Annelitrice machine lifeforms.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -57,7 +57,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_ColonistEgg"]/description</xpath>
     <value>
-      <description>A storage element recovered from a registered annelitrice machine lifeform.</description>
+      <description>A storage element recovered from a registered Annelitrice machine lifeform.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -69,7 +69,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_OutsiderEgg"]/description</xpath>
     <value>
-      <description>A storage element recovered somewhere.</description>
+      <description>A storage element recovered from an unknown source.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -93,7 +93,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Anneli_Pupa"]/description</xpath>
     <value>
-      <description>A motionless tangle of components and flesh. An annelitrice machine lifeform is taking shape within it.</description>
+      <description>A motionless tangle of components and flesh. An Annelitrice machine lifeform is taking shape within it.</description>
     </value>
   </Operation>
   <!-- Keep every retheme image under its own texture root, including random variants and masks. -->
@@ -154,4 +154,11 @@
       </butcherProducts>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_NutrientSolution"]/comps/li[@Class="CompProperties_Usable"]/useLabel</xpath>
+    <value>
+      <useLabel>use annelitrice recovered biomass</useLabel>
+    </value>
+  </Operation>
+
 </Patch>

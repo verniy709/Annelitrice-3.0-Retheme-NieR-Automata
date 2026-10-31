@@ -3,19 +3,19 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/label</xpath>
     <value>
-      <label>annelitrice Logic Virus</label>
+      <label>annelitrice logic virus</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/labelNoun</xpath>
     <value>
-      <labelNoun>annelitrice Logic Virus</labelNoun>
+      <labelNoun>annelitrice logic virus</labelNoun>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/description</xpath>
     <value>
-      <description>A modified Logic Virus has taken root within the host. Fragments of neural activity are converted into storage elements each day. Activation of storage elements by recovered biomass initializes new annelitrice stubby machines.</description>
+      <description>A modified Logic Virus has taken root within the host. Fragments of neural activity are converted into storage elements each day. Activation of storage elements by recovered biomass initializes new Annelitrice stubby machines.</description>
     </value>
   </Operation>
 </Patch>

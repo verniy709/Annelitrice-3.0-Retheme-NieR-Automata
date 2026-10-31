@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Anneli.LarvaAllowPupation>allow machine cocoon formation</Anneli.LarvaAllowPupation>
+  <Anneli.LarvaAllowPupationDesc>When off, this stubby machine's food level stays fixed, and feeding no longer advances its reconstruction into a machine cocoon. Turn it on to resume.</Anneli.LarvaAllowPupationDesc>
+</LanguageData>

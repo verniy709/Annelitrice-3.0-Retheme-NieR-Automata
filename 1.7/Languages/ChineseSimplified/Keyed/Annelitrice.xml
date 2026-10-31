@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Anneli.LarvaAllowPupation>允许形成机械茧</Anneli.LarvaAllowPupation>
+  <Anneli.LarvaAllowPupationDesc>关闭后，这台小机械体的饥饿值保持不变，摄取食物也不会推进机械茧的形成。重新开启后恢复正常。</Anneli.LarvaAllowPupationDesc>
+</LanguageData>

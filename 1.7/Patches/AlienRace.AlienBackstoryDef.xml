@@ -3,13 +3,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/title</xpath>
     <value>
-      <title>Unregistered Unit</title>
+      <title>unregistered unit</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NormalWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Unregistered Unit</titleShort>
+      <titleShort>unregistered unit</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -21,13 +21,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/title</xpath>
     <value>
-      <title>Dojo Machine</title>
+      <title>dojo machine</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ActiveWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Dojo Machine</titleShort>
+      <titleShort>dojo machine</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -39,13 +39,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/title</xpath>
     <value>
-      <title>Fishing Master</title>
+      <title>fishing master</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FriendlyWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Fishing Master</titleShort>
+      <titleShort>fishing master</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -57,13 +57,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/title</xpath>
     <value>
-      <title>Amusement Park Performer</title>
+      <title>amusement park performer</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CreativeWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Amusement Park Performer</titleShort>
+      <titleShort>amusement park performer</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -75,13 +75,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/title</xpath>
     <value>
-      <title>Recycle Unit</title>
+      <title>recycle unit</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DiggingWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Recycle Unit</titleShort>
+      <titleShort>recycle unit</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -93,13 +93,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/title</xpath>
     <value>
-      <title>Culinary Researcher</title>
+      <title>culinary researcher</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_FastGrowingWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Culinary Researcher</titleShort>
+      <titleShort>culinary researcher</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -111,13 +111,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/title</xpath>
     <value>
-      <title>Kingdom Machine</title>
+      <title>kingdom machine</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BellicoseWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Kingdom Machine</titleShort>
+      <titleShort>kingdom machine</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -129,13 +129,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/title</xpath>
     <value>
-      <title>Machine Gardener</title>
+      <title>machine gardener</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_NerdyWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Machine Gardener</titleShort>
+      <titleShort>machine gardener</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -147,13 +147,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/title</xpath>
     <value>
-      <title>Salvage Broker</title>
+      <title>salvage broker</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ShrewdWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Salvage Broker</titleShort>
+      <titleShort>salvage broker</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -165,13 +165,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/title</xpath>
     <value>
-      <title>Machine Mediator</title>
+      <title>machine mediator</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ImitatingWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Machine Mediator</titleShort>
+      <titleShort>machine mediator</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -183,13 +183,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/title</xpath>
     <value>
-      <title>Machine Philosopher</title>
+      <title>machine philosopher</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BizarreWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Machine Philosopher</titleShort>
+      <titleShort>machine philosopher</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -201,13 +201,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/title</xpath>
     <value>
-      <title>Extraction Machine</title>
+      <title>extraction machine</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_HoardingWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Extraction Machine</titleShort>
+      <titleShort>extraction machine</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -219,13 +219,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/title</xpath>
     <value>
-      <title>Boar Rider</title>
+      <title>boar rider</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CatWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Boar Rider</titleShort>
+      <titleShort>boar rider</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -237,13 +237,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/title</xpath>
     <value>
-      <title>Wise Machine</title>
+      <title>wise machine</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_AutisticWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Wise Machine</titleShort>
+      <titleShort>wise machine</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -255,13 +255,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/title</xpath>
     <value>
-      <title>Machine Cultist</title>
+      <title>machine cultist</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_ZealousWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Machine Cultist</titleShort>
+      <titleShort>machine cultist</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -273,13 +273,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/title</xpath>
     <value>
-      <title>Diagnosis Unit</title>
+      <title>diagnosis unit</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_MedicalWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Diagnosis Unit</titleShort>
+      <titleShort>diagnosis unit</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -291,13 +291,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/title</xpath>
     <value>
-      <title>Reckless Fisher</title>
+      <title>reckless fisher</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_CheesyWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Reckless Fisher</titleShort>
+      <titleShort>reckless fisher</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -309,13 +309,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/title</xpath>
     <value>
-      <title>Human Researcher</title>
+      <title>human researcher</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_BookWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Human Researcher</titleShort>
+      <titleShort>human researcher</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -327,13 +327,13 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/title</xpath>
     <value>
-      <title>Pod Unit</title>
+      <title>pod unit</title>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AlienRace.AlienBackstoryDef[defName="Anneli_DOSWorm"]/titleShort</xpath>
     <value>
-      <titleShort>Pod Unit</titleShort>
+      <titleShort>pod unit</titleShort>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

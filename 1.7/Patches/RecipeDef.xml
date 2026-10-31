@@ -3,25 +3,25 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/label</xpath>
     <value>
-      <label>purge annelitrice Logic Virus</label>
+      <label>purge annelitrice logic virus</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/description</xpath>
     <value>
-      <description>This medical operation purges the annelitrice Logic Virus from the patient.</description>
+      <description>This medical operation purges the Annelitrice Logic Virus from the patient.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/jobString</xpath>
     <value>
-      <jobString>Purging annelitrice Logic Virus.</jobString>
+      <jobString>Purging Annelitrice Logic Virus.</jobString>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/successfullyRemovedHediffMessage</xpath>
     <value>
-      <successfullyRemovedHediffMessage>{0} has successfully purged {1}'s annelitrice Logic Virus.</successfullyRemovedHediffMessage>
+      <successfullyRemovedHediffMessage>{0} has successfully purged {1}'s Annelitrice Logic Virus.</successfullyRemovedHediffMessage>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -33,7 +33,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/description</xpath>
     <value>
-      <description>Activate stored data and initialize an annelitrice stubby machine.</description>
+      <description>Activate stored data and initialize an Annelitrice stubby machine.</description>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -69,4 +69,81 @@
       </products>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/label</xpath>
+    <value>
+      <label>reconstruct annelitrice machine lifeform</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/description</xpath>
+    <value>
+      <description>Use recovered biomass to reconstruct a fallen Annelitrice machine lifeform.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/jobString</xpath>
+    <value>
+      <jobString>Reconstructing an Annelitrice machine lifeform.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/jobString</xpath>
+    <value>
+      <jobString>Activating an Annelitrice storage element.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/description</xpath>
+    <value>
+      <description>Dismantle an Annelitrice storage element to recover five units of biomass.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/jobString</xpath>
+    <value>
+      <jobString>Dismantling an Annelitrice storage element.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/description</xpath>
+    <value>
+      <description>Destroy an Annelitrice storage element by incineration.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/jobString</xpath>
+    <value>
+      <jobString>Incinerating an Annelitrice storage element.</jobString>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_MakeNutrientSolution"]/label</xpath>
+    <value>
+      <label>recover annelitrice biomass</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_MakeNutrientSolution"]/description</xpath>
+    <value>
+      <description>Recover reusable biomass from organic matter.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="Anneli_MakeNutrientSolution"]/jobString</xpath>
+    <value>
+      <jobString>Recovering Annelitrice biomass.</jobString>
+    </value>
+  </Operation>
+
 </Patch>

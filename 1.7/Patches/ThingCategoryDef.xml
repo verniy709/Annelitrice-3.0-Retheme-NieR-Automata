@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingCategoryDef[defName="Anneli_Egg"]/label</xpath>
+    <value>
+      <label>annelitrice storage elements</label>
+    </value>
+  </Operation>
+
+</Patch>

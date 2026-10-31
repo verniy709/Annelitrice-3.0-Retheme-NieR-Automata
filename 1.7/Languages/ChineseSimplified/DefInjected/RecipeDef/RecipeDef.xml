@@ -10,4 +10,15 @@
   <CremateAnneliEggs.label>销毁安妮莉存储单元</CremateAnneliEggs.label>
   <Anneli_AnthelminticAnneliEggs.label>ToDo</Anneli_AnthelminticAnneliEggs.label>
   <Anneli_AnthelminticAnneliEggs.description>ToDo.</Anneli_AnthelminticAnneliEggs.description>
+  <ResurrectAnneliCorpse.label>重建安妮莉机械生命体</ResurrectAnneliCorpse.label>
+  <ResurrectAnneliCorpse.description>使用回收生物质，重建倒下的安妮莉机械生命体。</ResurrectAnneliCorpse.description>
+  <ResurrectAnneliCorpse.jobString>正在重建安妮莉机械生命体。</ResurrectAnneliCorpse.jobString>
+  <HatchAnneliEggs.jobString>正在激活安妮莉存储单元。</HatchAnneliEggs.jobString>
+  <ButcherAnneliEggs.description>拆解安妮莉存储单元，回收五份生物质。</ButcherAnneliEggs.description>
+  <ButcherAnneliEggs.jobString>正在拆解安妮莉存储单元。</ButcherAnneliEggs.jobString>
+  <CremateAnneliEggs.description>通过焚烧销毁安妮莉存储单元。</CremateAnneliEggs.description>
+  <CremateAnneliEggs.jobString>正在焚毁安妮莉存储单元。</CremateAnneliEggs.jobString>
+  <Anneli_MakeNutrientSolution.label>回收安妮莉生物质</Anneli_MakeNutrientSolution.label>
+  <Anneli_MakeNutrientSolution.description>从有机质中回收可再利用的生物质。</Anneli_MakeNutrientSolution.description>
+  <Anneli_MakeNutrientSolution.jobString>正在回收安妮莉生物质。</Anneli_MakeNutrientSolution.jobString>
 </LanguageData>
