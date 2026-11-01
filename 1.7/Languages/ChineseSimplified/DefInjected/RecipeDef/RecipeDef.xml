@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Cure_Anneli_Infection.label>清除安妮莉逻辑病毒</Cure_Anneli_Infection.label>
   <Cure_Anneli_Infection.description>这个医疗操作会清除病人体内的安妮莉逻辑病毒。</Cure_Anneli_Infection.description>
@@ -8,8 +8,8 @@
   <HatchAnneliEggs.description>激活存储的数据，并初始化一台安妮莉小机械体。</HatchAnneliEggs.description>
   <ButcherAnneliEggs.label>拆解安妮莉存储单元</ButcherAnneliEggs.label>
   <CremateAnneliEggs.label>销毁安妮莉存储单元</CremateAnneliEggs.label>
-  <Anneli_AnthelminticAnneliEggs.label>ToDo</Anneli_AnthelminticAnneliEggs.label>
-  <Anneli_AnthelminticAnneliEggs.description>ToDo.</Anneli_AnthelminticAnneliEggs.description>
+  <Anneli_AnthelminticAnneliEggs.label>制作安妮莉病毒疫苗</Anneli_AnthelminticAnneliEggs.label>
+  <Anneli_AnthelminticAnneliEggs.description>制作安妮莉病毒疫苗。</Anneli_AnthelminticAnneliEggs.description>
   <ResurrectAnneliCorpse.label>重建安妮莉机械生命体</ResurrectAnneliCorpse.label>
   <ResurrectAnneliCorpse.description>使用回收生物质，重建倒下的安妮莉机械生命体。</ResurrectAnneliCorpse.description>
   <ResurrectAnneliCorpse.jobString>正在重建安妮莉机械生命体。</ResurrectAnneliCorpse.jobString>

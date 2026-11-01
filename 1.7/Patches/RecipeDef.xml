@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/label</xpath>
@@ -6,60 +6,70 @@
       <label>purge annelitrice logic virus</label>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/description</xpath>
     <value>
       <description>This medical operation purges the Annelitrice Logic Virus from the patient.</description>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/jobString</xpath>
     <value>
       <jobString>Purging Annelitrice Logic Virus.</jobString>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Cure_Anneli_Infection"]/successfullyRemovedHediffMessage</xpath>
     <value>
       <successfullyRemovedHediffMessage>{0} has successfully purged {1}'s Annelitrice Logic Virus.</successfullyRemovedHediffMessage>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/label</xpath>
     <value>
       <label>activate annelitrice storage element</label>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="HatchAnneliEggs"]/description</xpath>
     <value>
       <description>Activate stored data and initialize an Annelitrice stubby machine.</description>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/label</xpath>
     <value>
       <label>dismantle annelitrice storage element</label>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="CremateAnneliEggs"]/label</xpath>
     <value>
       <label>destroy annelitrice storage element</label>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Anneli_AnthelminticAnneliEggs"]/label</xpath>
     <value>
-      <label>ToDo</label>
+      <label>annelitrice virus vaccine production</label>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="Anneli_AnthelminticAnneliEggs"]/description</xpath>
     <value>
-      <description>ToDo.</description>
+      <description>Annelitrice virus vaccine production.</description>
     </value>
   </Operation>
+
   <!-- Butchery yields Anneli_NutrientSolution -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="ButcherAnneliEggs"]/products</xpath>
@@ -69,6 +79,7 @@
       </products>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RecipeDef[defName="ResurrectAnneliCorpse"]/label</xpath>
     <value>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FleckDef[defName="Anneli_PupaFormationA"]/graphicData/texPath</xpath>
@@ -6,24 +6,28 @@
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/PupaFormationA</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FleckDef[defName="Anneli_PupaFormationB"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/PupaFormationB</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FleckDef[defName="Anneli_PupaFormationC"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/PupaFormationC</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FleckDef[defName="Anneli_PupaFinishA"]/graphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/PupaFinishA</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FleckDef[defName="Anneli_Infest_Particle"]/graphicData/texPath</xpath>
     <value>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/label</xpath>
@@ -6,6 +6,7 @@
       <label>annelitrice stubby machine</label>
     </value>
   </Operation>
+
   <!-- Enlarge the larva graphic. -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/lifeStages/li/bodyGraphicData/drawSize</xpath>
@@ -13,60 +14,70 @@
       <drawSize>1.25</drawSize>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/lifeStages/li/bodyGraphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/lifeStages/li/dessicatedBodyGraphicData/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Dessicated_Larva</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva1"]/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva1</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva2"]/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva2</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva3"]/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva3</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva4"]/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva4</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva5"]/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva5</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva6"]/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva6</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva7"]/texPath</xpath>
     <value>
       <texPath>Anneli_Retheme_NieRAutomata/Anneli_Larva/Larva7</texPath>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/PawnKindDef[defName="Anneli_Larva"]/alternateGraphics/li[texPath="Anneli_Larva/Larva8"]/texPath</xpath>
     <value>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/label</xpath>
@@ -6,12 +6,14 @@
       <label>annelitrice logic virus</label>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/labelNoun</xpath>
     <value>
       <labelNoun>annelitrice logic virus</labelNoun>
     </value>
   </Operation>
+
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/HediffDef[defName="Anneli_Infection"]/description</xpath>
     <value>
