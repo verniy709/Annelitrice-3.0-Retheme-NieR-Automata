@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Patch>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children/li[fleckDef="Anneli_PupaFormationA"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children/li[fleckDef="Anneli_PupaFormationB"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children/li[fleckDef="Anneli_PupaFormationC"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children</xpath>
+    <value>
+      <li>
+        <subEffecterClass>Annelitrice.Retheme.NieRAutomata.SubEffecter_CocoonFormation</subEffecterClass>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationStart"]/children/li[subEffecterClass="SubEffecter_SoundTriggered"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_Infest"]/children/li[fleckDef="Anneli_Infest_Particle"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationFinish"]/children/li[fleckDef="Anneli_PupaFinishA"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationFinish"]/children</xpath>
+    <value>
+      <li>
+        <subEffecterClass>Annelitrice.Retheme.NieRAutomata.SubEffecter_ReconstructionComplete</subEffecterClass>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_PupationFinish"]/children/li[subEffecterClass="SubEffecter_SoundTriggered"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children/li[fleckDef="Anneli_PupaFinishA"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children</xpath>
+    <value>
+      <li>
+        <subEffecterClass>Annelitrice.Retheme.NieRAutomata.SubEffecter_StorageUnitActivation</subEffecterClass>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/EffecterDef[defName="Anneli_Hatch"]/children/li[subEffecterClass="SubEffecter_SoundTriggered"]/soundDef</xpath>
+    <value>
+      <soundDef>Anneli_Retheme_NieRAutomata_StorageUnitActivate</soundDef>
+    </value>
+  </Operation>
+</Patch>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Patch>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/iconPath</xpath>
@@ -6,18 +6,25 @@
       <iconPath>Anneli_Retheme_NieRAutomata/Anneli_UI/Anneli_Infect</iconPath>
     </value>
   </Operation>
-
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/label</xpath>
     <value>
       <label>infect with logic virus</label>
     </value>
   </Operation>
-
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/description</xpath>
     <value>
       <description>Infect another humanoid with a modified Logic Virus. Over time, the virus records their neural activity until a complete machine-readable personality emerges.</description>
     </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/comps</xpath>
+    <value>
+      <li Class="Annelitrice.Retheme.NieRAutomata.CompProperties_LogicVirusInfection" />
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/AbilityDef[defName="Anneli_Infest"]/comps/li[@Class="CompProperties_AbilityEffecterOnTarget"][effecterDef="Anneli_Infest"]</xpath>
   </Operation>
 </Patch>
