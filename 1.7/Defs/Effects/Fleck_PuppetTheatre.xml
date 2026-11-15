@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_NieRAutomata_PuppetStaticArc</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/Anneli_PuppetTheatre/StaticArc</texPath>
+      <drawSize>(1,0.5)</drawSize>
+      <graphicClass>Graphic_Fleck</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fadeInTime>0.008</fadeInTime>
+    <solidTime>0.035</solidTime>
+    <fadeOutTime>0.12</fadeOutTime>
+    <growthRate>0</growthRate>
+    <speedPerTime>0</speedPerTime>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_NieRAutomata_PuppetStaticFork</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/Anneli_PuppetTheatre/StaticFork</texPath>
+      <drawSize>(0.7,1)</drawSize>
+      <graphicClass>Graphic_Fleck</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fadeInTime>0.008</fadeInTime>
+    <solidTime>0.025</solidTime>
+    <fadeOutTime>0.14</fadeOutTime>
+    <growthRate>0</growthRate>
+    <speedPerTime>0</speedPerTime>
+  </FleckDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_NieRAutomata_PuppetSparkBurst</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/Anneli_PuppetTheatre/SparkBurst</texPath>
+      <drawSize>(1,1)</drawSize>
+      <graphicClass>Graphic_Fleck</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <fadeInTime>0.004</fadeInTime>
+    <solidTime>0.025</solidTime>
+    <fadeOutTime>0.11</fadeOutTime>
+    <growthRate>0.05</growthRate>
+    <speedPerTime>0</speedPerTime>
+  </FleckDef>
+</Defs>

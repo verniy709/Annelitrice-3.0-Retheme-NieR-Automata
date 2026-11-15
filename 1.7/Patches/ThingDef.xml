@@ -186,4 +186,324 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_RecoveryLightPoint</fleck>
+          <offsetMin>(-0.52,0,-0.50)</offsetMin>
+          <offsetMax>(-0.34,0,-0.32)</offsetMax>
+          <emissionInterval>9</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.035~0.060</scale>
+          <rotationRate>0~0</rotationRate>
+          <velocityX>-8~2</velocityX>
+          <velocityY>0.275~0.375</velocityY>
+          <colorA>(1,0.95,0.80,0.72)</colorA>
+          <colorB>(1,1,0.98,0.96)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_RecoveryLightPoint</fleck>
+          <offsetMin>(0.34,0,-0.50)</offsetMin>
+          <offsetMax>(0.52,0,-0.32)</offsetMax>
+          <emissionInterval>11</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.035~0.060</scale>
+          <rotationRate>0~0</rotationRate>
+          <velocityX>-2~8</velocityX>
+          <velocityY>0.275~0.375</velocityY>
+          <colorA>(1,0.95,0.80,0.72)</colorA>
+          <colorB>(1,1,0.98,0.96)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_RecoveryLightPoint</fleck>
+          <offsetMin>(-0.26,0,-0.30)</offsetMin>
+          <offsetMax>(0.26,0,0.60)</offsetMax>
+          <emissionInterval>15</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.035~0.060</scale>
+          <rotationRate>0~0</rotationRate>
+          <velocityX>-4~4</velocityX>
+          <velocityY>0.275~0.375</velocityY>
+          <colorA>(1,0.95,0.80,0.72)</colorA>
+          <colorB>(1,1,0.98,0.96)</colorB>
+        </li>
+        <li Class="CompProperties_AmbientSound">
+          <sound>Anneli_Retheme_NieRAutomata_FountainAmbience</sound>
+          <disabledOnUnpowered>false</disabledOnUnpowered>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]</xpath>
+      <value>
+        <comps>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_RecoveryLightPoint</fleck>
+            <offsetMin>(-0.52,0,-0.50)</offsetMin>
+            <offsetMax>(-0.34,0,-0.32)</offsetMax>
+            <emissionInterval>9</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.035~0.060</scale>
+            <rotationRate>0~0</rotationRate>
+            <velocityX>-8~2</velocityX>
+            <velocityY>0.275~0.375</velocityY>
+            <colorA>(1,0.95,0.80,0.72)</colorA>
+            <colorB>(1,1,0.98,0.96)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_RecoveryLightPoint</fleck>
+            <offsetMin>(0.34,0,-0.50)</offsetMin>
+            <offsetMax>(0.52,0,-0.32)</offsetMax>
+            <emissionInterval>11</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.035~0.060</scale>
+            <rotationRate>0~0</rotationRate>
+            <velocityX>-2~8</velocityX>
+            <velocityY>0.275~0.375</velocityY>
+            <colorA>(1,0.95,0.80,0.72)</colorA>
+            <colorB>(1,1,0.98,0.96)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_RecoveryLightPoint</fleck>
+            <offsetMin>(-0.26,0,-0.30)</offsetMin>
+            <offsetMax>(0.26,0,0.60)</offsetMax>
+            <emissionInterval>15</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.035~0.060</scale>
+            <rotationRate>0~0</rotationRate>
+            <velocityX>-4~4</velocityX>
+            <velocityY>0.275~0.375</velocityY>
+            <colorA>(1,0.95,0.80,0.72)</colorA>
+            <colorB>(1,1,0.98,0.96)</colorB>
+          </li>
+          <li Class="CompProperties_AmbientSound">
+            <sound>Anneli_Retheme_NieRAutomata_FountainAmbience</sound>
+            <disabledOnUnpowered>false</disabledOnUnpowered>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+  
+  
+  
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/tickerType</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]/tickerType</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_Fountain"]</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/comps</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/comps</xpath>
+      <value>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticArc</fleck>
+          <offsetMin>(-0.25,0,0.16)</offsetMin>
+          <offsetMax>(0.25,0,0.49)</offsetMax>
+          <emissionInterval>211</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.16~0.26</scale>
+          <rotationRate>-220~220</rotationRate>
+          <velocityX>0~0</velocityX>
+          <velocityY>0~0</velocityY>
+          <colorA>(0.68,0.83,1,0.85)</colorA>
+          <colorB>(1,1,1,1)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticArc</fleck>
+          <offsetMin>(-0.28,0,-0.38)</offsetMin>
+          <offsetMax>(0.28,0,0.10)</offsetMax>
+          <emissionInterval>277</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.14~0.24</scale>
+          <rotationRate>-240~240</rotationRate>
+          <velocityX>0~0</velocityX>
+          <velocityY>0~0</velocityY>
+          <colorA>(0.68,0.83,1,0.85)</colorA>
+          <colorB>(1,1,1,1)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticFork</fleck>
+          <offsetMin>(-0.49,0,-0.30)</offsetMin>
+          <offsetMax>(-0.37,0,0.50)</offsetMax>
+          <emissionInterval>337</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.16~0.25</scale>
+          <rotationRate>-220~180</rotationRate>
+          <velocityX>0~0</velocityX>
+          <velocityY>0~0</velocityY>
+          <colorA>(0.68,0.83,1,0.85)</colorA>
+          <colorB>(1,1,1,1)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticFork</fleck>
+          <offsetMin>(0.37,0,-0.30)</offsetMin>
+          <offsetMax>(0.49,0,0.50)</offsetMax>
+          <emissionInterval>419</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.16~0.25</scale>
+          <rotationRate>-180~220</rotationRate>
+          <velocityX>0~0</velocityX>
+          <velocityY>0~0</velocityY>
+          <colorA>(0.68,0.83,1,0.85)</colorA>
+          <colorB>(1,1,1,1)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_PuppetSparkBurst</fleck>
+          <offsetMin>(-0.58,0,-0.43)</offsetMin>
+          <offsetMax>(-0.37,0,0.56)</offsetMax>
+          <emissionInterval>311</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.08~0.14</scale>
+          <rotationRate>-160~160</rotationRate>
+          <velocityX>-80~-20</velocityX>
+          <velocityY>0.06~0.14</velocityY>
+          <colorA>(0.68,0.83,1,0.85)</colorA>
+          <colorB>(1,1,1,1)</colorB>
+        </li>
+        <li Class="CompProperties_ThrownFleckEmitter">
+          <fleck>Anneli_Retheme_NieRAutomata_PuppetSparkBurst</fleck>
+          <offsetMin>(0.37,0,-0.43)</offsetMin>
+          <offsetMax>(0.58,0,0.56)</offsetMax>
+          <emissionInterval>389</emissionInterval>
+          <burstCount>1</burstCount>
+          <scale>0.08~0.14</scale>
+          <rotationRate>-160~160</rotationRate>
+          <velocityX>20~80</velocityX>
+          <velocityY>0.06~0.14</velocityY>
+          <colorA>(0.68,0.83,1,0.85)</colorA>
+          <colorB>(1,1,1,1)</colorB>
+        </li>
+        <li Class="CompProperties_AmbientSound">
+          <sound>Anneli_Retheme_NieRAutomata_PuppetTheatreAmbience</sound>
+          <disabledOnUnpowered>false</disabledOnUnpowered>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]</xpath>
+      <value>
+        <comps>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticArc</fleck>
+            <offsetMin>(-0.25,0,0.16)</offsetMin>
+            <offsetMax>(0.25,0,0.49)</offsetMax>
+            <emissionInterval>211</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.16~0.26</scale>
+            <rotationRate>-220~220</rotationRate>
+            <velocityX>0~0</velocityX>
+            <velocityY>0~0</velocityY>
+            <colorA>(0.68,0.83,1,0.85)</colorA>
+            <colorB>(1,1,1,1)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticArc</fleck>
+            <offsetMin>(-0.28,0,-0.38)</offsetMin>
+            <offsetMax>(0.28,0,0.10)</offsetMax>
+            <emissionInterval>277</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.14~0.24</scale>
+            <rotationRate>-240~240</rotationRate>
+            <velocityX>0~0</velocityX>
+            <velocityY>0~0</velocityY>
+            <colorA>(0.68,0.83,1,0.85)</colorA>
+            <colorB>(1,1,1,1)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticFork</fleck>
+            <offsetMin>(-0.49,0,-0.30)</offsetMin>
+            <offsetMax>(-0.37,0,0.50)</offsetMax>
+            <emissionInterval>337</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.16~0.25</scale>
+            <rotationRate>-220~180</rotationRate>
+            <velocityX>0~0</velocityX>
+            <velocityY>0~0</velocityY>
+            <colorA>(0.68,0.83,1,0.85)</colorA>
+            <colorB>(1,1,1,1)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_PuppetStaticFork</fleck>
+            <offsetMin>(0.37,0,-0.30)</offsetMin>
+            <offsetMax>(0.49,0,0.50)</offsetMax>
+            <emissionInterval>419</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.16~0.25</scale>
+            <rotationRate>-180~220</rotationRate>
+            <velocityX>0~0</velocityX>
+            <velocityY>0~0</velocityY>
+            <colorA>(0.68,0.83,1,0.85)</colorA>
+            <colorB>(1,1,1,1)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_PuppetSparkBurst</fleck>
+            <offsetMin>(-0.58,0,-0.43)</offsetMin>
+            <offsetMax>(-0.37,0,0.56)</offsetMax>
+            <emissionInterval>311</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.08~0.14</scale>
+            <rotationRate>-160~160</rotationRate>
+            <velocityX>-80~-20</velocityX>
+            <velocityY>0.06~0.14</velocityY>
+            <colorA>(0.68,0.83,1,0.85)</colorA>
+            <colorB>(1,1,1,1)</colorB>
+          </li>
+          <li Class="CompProperties_ThrownFleckEmitter">
+            <fleck>Anneli_Retheme_NieRAutomata_PuppetSparkBurst</fleck>
+            <offsetMin>(0.37,0,-0.43)</offsetMin>
+            <offsetMax>(0.58,0,0.56)</offsetMax>
+            <emissionInterval>389</emissionInterval>
+            <burstCount>1</burstCount>
+            <scale>0.08~0.14</scale>
+            <rotationRate>-160~160</rotationRate>
+            <velocityX>20~80</velocityX>
+            <velocityY>0.06~0.14</velocityY>
+            <colorA>(0.68,0.83,1,0.85)</colorA>
+            <colorB>(1,1,1,1)</colorB>
+          </li>
+          <li Class="CompProperties_AmbientSound">
+            <sound>Anneli_Retheme_NieRAutomata_PuppetTheatreAmbience</sound>
+            <disabledOnUnpowered>false</disabledOnUnpowered>
+          </li>
+        </comps>
+      </value>
+    </nomatch>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/tickerType</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/tickerType</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]</xpath>
+      <value>
+        <tickerType>Normal</tickerType>
+      </value>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Anneli_PuppetTheatre"]/building/effectWatching</xpath>
+    <value>
+      <effectWatching>Anneli_Retheme_NieRAutomata_WatchingTerminal</effectWatching>
+    </value>
+  </Operation>
 </Patch>

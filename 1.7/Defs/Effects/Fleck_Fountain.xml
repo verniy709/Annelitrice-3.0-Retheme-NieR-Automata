@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Anneli_Retheme_NieRAutomata_RecoveryLightPoint</defName>
+    <graphicData>
+      <texPath>Anneli_Retheme_NieRAutomata/Anneli_Effect/SoftGlow</texPath>
+      <drawSize>(1,1)</drawSize>
+      <shaderType>MoteGlow</shaderType>
+      <renderInstanced>true</renderInstanced>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.10</fadeInTime>
+    <solidTime>0.50</solidTime>
+    <fadeOutTime>1.20</fadeOutTime>
+    <growthRate>-0.004</growthRate>
+    <speedPerTime>0</speedPerTime>
+  </FleckDef>
+</Defs>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_FountainAmbience</defName>
+    <sustain>true</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <maxVoices>1</maxVoices>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <muteWhenPaused>true</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainAmbience</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~100</volumeRange>
+        <pitchRange>1~1</pitchRange>
+        <distRange>5~20</distRange>
+        <sustainAttack>1.2</sustainAttack>
+        <sustainRelease>1.5</sustainRelease>
+      </li>
+      <li>
+        <name>Anneli_Retheme_NieRAutomata_FountainSteam</name>
+        <muteWhenPaused>true</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Steam_A</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Steam_B</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Steam_C</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~100</volumeRange>
+        <pitchRange>0.97~1.03</pitchRange>
+        <sustainIntervalRange>2~6</sustainIntervalRange>
+        <startDelayRange>3~6</startDelayRange>
+        <distRange>5~20</distRange>
+        <sustainLoop>false</sustainLoop>
+        <repeatMode>NeverTwice</repeatMode>
+        <tempoAffectedByGameSpeed>false</tempoAffectedByGameSpeed>
+        <randomStartPoint>false</randomStartPoint>
+        <sustainAttack>0.04</sustainAttack>
+        <sustainRelease>0.15</sustainRelease>
+      </li>
+      <li>
+        <name>Anneli_Retheme_NieRAutomata_FountainGears</name>
+        <muteWhenPaused>true</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Gears_A</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Gears_B</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Gears_C</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~100</volumeRange>
+        <pitchRange>0.96~1.04</pitchRange>
+        <sustainIntervalRange>2~6</sustainIntervalRange>
+        <startDelayRange>5~9</startDelayRange>
+        <distRange>5~20</distRange>
+        <sustainLoop>false</sustainLoop>
+        <repeatMode>NeverTwice</repeatMode>
+        <tempoAffectedByGameSpeed>false</tempoAffectedByGameSpeed>
+        <randomStartPoint>false</randomStartPoint>
+        <sustainAttack>0.015</sustainAttack>
+        <sustainRelease>0.12</sustainRelease>
+      </li>
+      <li>
+        <name>Anneli_Retheme_NieRAutomata_FountainPistons</name>
+        <muteWhenPaused>true</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Pistons_A</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Pistons_B</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/BuildingAmbience/FountainMechanics/Pistons_C</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~100</volumeRange>
+        <pitchRange>0.97~1.03</pitchRange>
+        <sustainIntervalRange>2~6</sustainIntervalRange>
+        <startDelayRange>7~12</startDelayRange>
+        <distRange>5~20</distRange>
+        <sustainLoop>false</sustainLoop>
+        <repeatMode>NeverTwice</repeatMode>
+        <tempoAffectedByGameSpeed>false</tempoAffectedByGameSpeed>
+        <randomStartPoint>false</randomStartPoint>
+        <sustainAttack>0.015</sustainAttack>
+        <sustainRelease>0.16</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
