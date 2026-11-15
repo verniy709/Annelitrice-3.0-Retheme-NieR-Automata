@@ -35,7 +35,7 @@
 | 机械茧形成 | 数据向内吸入、分层包裹、封口亮闪与向下扫描 | core_12主体；第29tick加入core_2扫描提示 |
 | 重建完成 | 封壳向两侧解锁、暖白亮闪、壳片与数据向外释放 | core_96主体约2.657秒；第6tick加入三下短促拆解声 |
 
-四组声音共10个SoundDef，游戏音量统一为`75~75`，音高为`1~1`，保留已确认的分层比例。声音位于`Sounds/Anneli_Retheme_NieRAutomata/`。主体、尾声、扫描与拆解是独立的一次性声音，视觉清理不会主动截断已经播放的声音。游戏加速和中途切换速度可能改变自然播放声音之间的重叠关系；感染主体另有标准加速版本。
+四组声音共10个SoundDef，游戏音量统一为`75~75`，音高为`1~1`，保留已确认的分层比例。声音位于`Sounds/Anneli_Retheme_NieRAutomata/`下对应四组效果的子目录。十份音频统一采用 Ogg Vorbis；九份原 WAV 以质量等级 8 转换，保留 48 kHz 采样率与原有单声道/双声道布局；已有的存储激活 OGG 逐字节保留，没有重复压缩。主体、尾声、扫描与拆解是独立的一次性声音，视觉清理不会主动截断已经播放的声音。游戏加速和中途切换速度可能改变自然播放声音之间的重叠关系；感染主体另有标准加速版本。
 
 感染可见效果约1.33秒；存储激活约1秒；机械茧形成约1.4秒；重建完成约1.6秒。效果以游戏tick推进，精确生命周期及强度参数以对应源码为准。视觉仅负责表现，不接管原模组的生成、复活、阵营或行动流程。
 
@@ -49,12 +49,16 @@ LoadFolders.xml
 README.md
 1.7/
   Assemblies/Annelitrice.Retheme.NieRAutomata.dll
-  Defs/SoundDefs/SoundEffects.xml
+  Defs/SoundDefs/                 按四组效果分类
   Patches/                       按原模组Def类型分类
   Languages/ChineseSimplified/  DefInjected与Keyed
   Languages/English/Keyed/
   Source/Annelitrice.Retheme.NieRAutomata/
-Sounds/Anneli_Retheme_NieRAutomata/
+    LogicVirus/
+    StorageActivation/
+    CocoonFormation/
+    ReconstructionComplete/
+Sounds/Anneli_Retheme_NieRAutomata/  同样分为上述四组
 Textures/Anneli_Retheme_NieRAutomata/
 ```
 
@@ -90,8 +94,14 @@ dotnet build .\1.7\Source\Annelitrice.Retheme.NieRAutomata\Annelitrice.Retheme.N
 Copy-Item -LiteralPath "$env:TEMP\AnneliNieR\bin\Annelitrice.Retheme.NieRAutomata.dll" -Destination .\1.7\Assemblies\Annelitrice.Retheme.NieRAutomata.dll
 ```
 
-## 本次整理
+## 本次整理（2026-11-15）
 
-已合并分散的效果补丁、声音定义和说明，删除空占位说明、旧粒子兼容图及无效贴图补丁，将完全相同的效果基础贴图合为共享资源，并把版本专用源码归入`1.7/Source`。原有音频、常规美术、四组效果运动、时序及音量保持。
+十一份源码按四组效果归档，文件内容逐字节保留；项目使用四组目录的明确编译路径，避免误包含构建缓存。四组声音定义分别为 `LogicVirus.xml`、`StorageActivation.xml`、`CocoonFormation.xml`、`ReconstructionComplete.xml`。SoundDef 名称、音量、音高与并发参数保持原样，仅更新 clipPath 的分组路径。
 
-`.git`和`.gitattributes`是版本管理资料，整理时保留；本说明为模组内唯一Markdown说明。检查记录、备份、回退脚本与完整发布包保存在模组目录以外。
+九份 WAV 转为高质量 OGG，已有的一份 OGG 只移动归档。转换后检查了解码格式、时长、波形时间对齐与音量。原始 WAV 和安装前完整备份保存在模组目录外，游戏目录不保留重复 WAV。声音自然尾音及各组的延迟逻辑保持原样。
+
+源码重新编译通过；游戏目录继续保留此前已确认的程序集，视觉几何与声音时序未改动。所有常规贴图、方向图、固定路径图标、中文翻译和原有补丁保留。现有配方的 `Cook` 工作效果和 `Recipe_Machining` 工作声音改动也纳入备份并保留。
+
+此前已清理的旧 Fleck 无效重定向与占位文件不再加入；两张共用特效基础贴图继续使用。`.git` 和 `.gitattributes` 保留。本文件为模组内唯一说明；检查记录、完整备份、回退脚本与发布包存放在目录外。
+
+安装本次更新后，请重启游戏以加载新的音频路径和 OGG 文件。此次整理完成编译与离线检查，格式转换后的实际游戏听感需重启后体验。

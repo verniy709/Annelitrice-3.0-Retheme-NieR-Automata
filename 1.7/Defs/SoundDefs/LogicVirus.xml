@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_LogicVirusInfect</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/LogicVirus/LogicVirusInfect</clipPath>
+          </li>
+        </grains>
+        <volumeRange>75~75</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_LogicVirusInfect_Fast3</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/LogicVirus/LogicVirusInfect_Fast3</clipPath>
+          </li>
+        </grains>
+        <volumeRange>75~75</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_LogicVirusInfect_Fast6</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/LogicVirus/LogicVirusInfect_Fast6</clipPath>
+          </li>
+        </grains>
+        <volumeRange>75~75</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_LogicVirusInfect_Fast15</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/LogicVirus/LogicVirusInfect_Fast15</clipPath>
+          </li>
+        </grains>
+        <volumeRange>75~75</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_LogicVirusFinish</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/LogicVirus/LogicVirusFinish</clipPath>
+          </li>
+        </grains>
+        <volumeRange>75~75</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

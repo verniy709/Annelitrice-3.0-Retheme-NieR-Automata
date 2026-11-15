@@ -14,7 +14,10 @@
     <RimWorldDirectory Condition="'$(RimWorldDirectory)' == ''">$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\..\..\..\..'))</RimWorldDirectory>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="*.cs" />
+    <Compile Include="CocoonFormation/*.cs" />
+    <Compile Include="LogicVirus/*.cs" />
+    <Compile Include="ReconstructionComplete/*.cs" />
+    <Compile Include="StorageActivation/*.cs" />
     <Reference Include="$(RimWorldDirectory)\System*.dll" Exclude="$(RimWorldDirectory)\System.IO.Compression.Native.dll"><Private>false</Private></Reference>
     <Reference Include="$(RimWorldDirectory)\mscorlib.dll"><Private>false</Private></Reference>
     <Reference Include="$(RimWorldDirectory)\netstandard.dll"><Private>false</Private></Reference>

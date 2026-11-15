@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_CocoonFormationBody</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/CocoonFormation/CocoonFormationBody</clipPath>
+          </li>
+        </grains>
+        <volumeRange>75~75</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Anneli_Retheme_NieRAutomata_CocoonFormationScan</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>4</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Anneli_Retheme_NieRAutomata/CocoonFormation/CocoonFormationScan</clipPath>
+          </li>
+        </grains>
+        <volumeRange>75~75</volumeRange>
+        <pitchRange>1~1</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
