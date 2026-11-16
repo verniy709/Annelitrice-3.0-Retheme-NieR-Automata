@@ -15,5 +15,9 @@
   <loadAfter>
     <li>Verniy709.Annelitrice3.0</li>
   </loadAfter>
+  <incompatibleWith>
+    <li>Verniy709.Annelitrice3.0.Retheme.DarkSouls</li>
+    <li>Verniy709.Annelitrice3.0.Retheme.MahouShoujo</li>
+  </incompatibleWith>
   <description></description>
 </ModMetaData>
